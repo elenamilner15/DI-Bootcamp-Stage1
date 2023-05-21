@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(226, 172, 127);
+}
+
+#wrap {
+    max-width: 660px;
+    border: 6px dashed;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 220);
+}
+
+
+h1 {
+    margin: 0;
+    padding-bottom: 2px;
+    border-bottom: 6px dashed;
+    font-size: 32px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+
+p {
+    margin: 20px 20px 10px;
+    text-align: justify;
+}
+
+ul {
+    text-align: center;
+    margin-top: 0;
+
+    font-style: italic;
+    list-style-type: none;
+}
+
+
+li {
+    background-color: rgb(245, 245, 220);
+    padding: 1.2px;
+}
+
+li::first-letter {
+    font-weight: bold;
+}
+
+p.copyright {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 6px;
+}
