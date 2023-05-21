@@ -6,8 +6,8 @@ body {
 
 
 #wrap {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 660px;
+    margin: auto;
     padding: 20px;
     background-color: rgb(85, 204, 255);
 
@@ -28,7 +28,7 @@ p {
 ul {
     text-align: center;
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 50px;
 }
 
 
