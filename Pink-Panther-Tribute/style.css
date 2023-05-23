@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-size: 24px;
+
+}
+
+body {
+    background: rgb(252, 169, 202);
+}
+
+.container {
+    width: 85%;
+    margin: 40px auto;
+    text-align: center;
+
+}
+
+/* header section*/
+.header {
+
+    width: 85%;
+    margin: 20px auto;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ////top menu Start//// */
+.search input {
+    width: 200px;
+    padding: 10px;
+    border: 0;
+    height: 100%;
+    border-radius: 2px 0 0 2px
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(224, 9, 130);
+}
+
+.search button {
+    height: 100%;
+    width: 60px;
+    border: none;
+    background-color: rgb(255, 182, 203);
+}
+
+
+.lang-menu {
+    padding: 0 80px 0 0;
+    position: relative;
+}
+
+.lang-menu ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.lang-menu:hover ul {
+    display: block;
+}
+
+.search {
+    display: flex;
+}
+
+.search form {
+    display: flex;
+    border: 1px solid #ddd;
+    height: 45px;
+}
+
+/* ////top menu Ends//// */
+
+/* ///Filtered Menu/// */
+.content .list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.content .list li {
+    color: #000;
+    margin: 0px 15px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.content .list li::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    transition: .4s ease-in-out;
+}
+
+.content .list li:hover::after {
+    width: 100%;
+}
+
+
+.content .list li:last-child {
+    color: white;
+}
+
+.box_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ////////////////////////// */
+
+
+
+/* links behavior */
+.list li {
+    list-style: none;
+
+}
+
+.list a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.list a:active {
+    text-decoration: none;
+}
+
+/* links behavior */
+
+
+iframe {
+    width: 300px;
+    float: right;
+    height: 150px;
+}
+
+audio {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.home-image {
+    position: relative;
+    width: 100%;
+    -webkit-mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
+    mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.music-image {
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+/* links behavior */
+.show {
+    text-indent: 40px;
+
+}
+
+.show a:link,
+a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+.show a:hover {
+    text-decoration: underline;
+
+    color: white;
+}
+
+.show a:active {
+    text-decoration: underline;
+}
+
+/* links behavior */
+
+.mytable {
+    width: 100%;
+    border-collapse: collapse;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+
+    word-wrap: break-word;
+    vertical-align: center;
+    text-align: left;
+}
+
+#first-row {
+    font-weight: bold;
+    /* font-style: italic; */
+    vertical-align: top;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/* //text////// */
+p,
+h3 {
+    text-indent: 28px;
+}
+
+h1,
+h2 {
+
+    text-align: center;
+    font-size: 34px;
+}
+
+.content {
+    text-align: left;
+    width: 90%;
+}
+
+.text h3 {
+    text-transform: capitalize;
+}
+
+
+@keyframes movement {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media(max-width: 1320px) {
+    .box {
+        width: 49%;
+    }
+}
+
+@media(max-width: 991px) {
+    .container .title {
+        width: 80%;
+    }
+
+    .box .box_img {
+        text-align: left;
+    }
+
+    .box_img img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box .text {
+        width: 70%;
+    }
+}

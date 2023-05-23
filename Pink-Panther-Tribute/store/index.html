@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Merch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ////////////HEADER////////////////////////// -->
+    <header class="header">
+        <div class="logo left">
+            <img src="images\logo6.png">
+        </div>
+
+        <div class="search center">
+            <form action="">
+                <input type="text" placeholder="Search" />
+                <button>
+                    <img class="search" src="images\icons\search.png">
+
+                </button>
+            </form>
+        </div>
+
+        <!-- //////Language menu/////////////// -->
+        <div class="lang-menu">
+            <div class="lang-logo">
+                <img src="images\icons\lang.png">
+            </div>
+
+            <ul>
+                <li>
+                    <select onchange="changeLanguage(this.value)">
+                        <option value="en">English</option>
+                        <option value="ru">Russian</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <!-- ////////Icons right//// -->
+        <div class="icons right">
+
+            <img class="home" src="images\icons\home.png">
+
+            <img class="person" src="images\icons\person.png">
+
+            <img class="cart" src="images\icons\cart.png">
+
+            <img class="heart" src="images\icons\heart.png">
+
+        </div>
+    </header>
+
+
+
+
+
+
+    <div class="container">
+        <div class="content">
+            <div class="list">
+                <li data-list=".All">All</li>
+                <li data-list=".Clothes">Clothes</li>
+                <li data-list=".Shoes">Shoes</li>
+                <li data-list=".Accesories">Accesories</li>
+                <li data-list=".Gifts">Gifts & Living</li>
+            </div>
+
+        </div>
+
+        <div class="box_flex">
+
+            <div class="box All Accesories">
+                <div class="box_img">
+                    <img src="images/image1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Women socks</h3>
+                    <hr>
+                    <section>$1.80</section>
+                </div>
+            </div>
+
+            <div class="box All Gifts">
+                <div class="box_img">
+                    <img src="images/image2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Pencil Bag</h3>
+                    <hr>
+                    <section>$4.30</section>
+                </div>
+            </div>
+
+            <div class="box All Accesories">
+                <div class="box_img">
+                    <img src="images/image3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Portable Aluminum Foil Lunch Bag</h3>
+                    <hr>
+                    <section>$6.40</section>
+                </div>
+            </div>
+
+            <div class="box All Gifts">
+                <div class="box_img">
+                    <img src="images/image4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Fleece Blanket</h3>
+                    <hr>
+                    <section>$30</section>
+                </div>
+            </div>
+
+            <div class="box All Clothes">
+                <div class="box_img">
+                    <img src="images/image5.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Women Denim Jacket</h3>
+                    <hr>
+                    <section>$45</section>
+                </div>
+            </div>
+
+            <div class="box All Gifts">
+                <div class="box_img">
+                    <img src="images/image6.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Nail Stickers</h3>
+                    <hr>
+                    <section>$0.30</section>
+                </div>
+            </div>
+
+
+            <div class="box All Accesories">
+                <div class="box_img">
+                    <img src="images/image7.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Women socks</h3>
+                    <hr>
+                    <section>$2.40</section>
+                </div>
+            </div>
+
+            <div class="box All Gifts">
+                <div class="box_img">
+                    <img src="images/image8.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Erasable Ink Gel Pen</h3>
+                    <hr>
+                    <section>$1.10</section>
+                </div>
+            </div>
+
+
+            <div class="box All Accesories">
+                <div class="box_img">
+                    <img src="images/image9.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Mens Printed Baseball Cap</h3>
+                    <hr>
+                    <section>$6.40</section>
+                </div>
+            </div>
+
+
+            <div class="box All Gifts">
+                <div class="box_img">
+                    <img src="images/image10.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Phone Case</h3>
+                    <hr>
+                    <section>$5.10</section>
+                </div>
+            </div>
+
+            <div class="box All Shoes">
+                <div class="box_img">
+                    <img src="images/image11.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Women Shoes</h3>
+                    <hr>
+                    <section>$57</section>
+                </div>
+            </div>
+
+
+            <div class="box All Clothes">
+                <div class="box_img">
+                    <img src="images/image12.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Child T-shirt</h3>
+                    <hr>
+                    <section>$18</section>
+                </div>
+            </div>
+
+
+            <div class="box All Accesories">
+                <div class="box_img">
+                    <img src="images/image13.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Beanie Hat</h3>
+                    <hr>
+                    <section>$8.40</section>
+                </div>
+            </div>
+
+            <div class="box All Gifts">
+                <div class="box_img">
+                    <img src="images/image14.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Pillowcase</h3>
+                    <hr>
+                    <section>$10</section>
+                </div>
+            </div>
+
+            <div class="box All Gifts">
+                <div class="box_img">
+                    <img src="images/image15.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Portable Drinking Bottle</h3>
+                    <hr>
+                    <section>$3.20</section>
+                </div>
+            </div>
+
+            <div class="box All Clothes">
+                <div class="box_img">
+                    <img src="images/image16.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Women Jumper</h3>
+                    <hr>
+                    <section>$25</section>
+                </div>
+            </div>
+
+            <div class="box All Shoes">
+                <div class="box_img">
+                    <img src="images/image17.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Slippers</h3>
+                    <hr>
+                    <section>$9</section>
+                </div>
+            </div>
+
+
+            <div class="box All Shoes">
+                <div class="box_img">
+                    <img src="images/image18.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Shoes</h3>
+                    <hr>
+                    <section>$13</section>
+                </div>
+            </div>
+
+            <div class="box All Shoes">
+                <div class="box_img">
+                    <img src="images/image19.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Shoes</h3>
+                    <hr>
+                    <section>$19</section>
+                </div>
+            </div>
+
+            <div class="box All Shoes">
+                <div class="box_img">
+                    <img src="images/image20.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Slippers</h3>
+                    <hr>
+                    <section>$8</section>
+                </div>
+            </div>
+
+
+            <div class="box All Clothes">
+                <div class="box_img">
+                    <img src="images/image21.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther T-shirt</h3>
+                    <hr>
+                    <section>$20</section>
+                </div>
+            </div>
+
+            <div class="box All Clothes">
+                <div class="box_img">
+                    <img src="images/image22.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther T-shirt</h3>
+                    <hr>
+                    <section>$22</section>
+                </div>
+            </div>
+
+            <div class="box All Clothes">
+                <div class="box_img">
+                    <img src="images/image23.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Costume</h3>
+                    <hr>
+                    <section>$80</section>
+                </div>
+            </div>
+
+            <div class="box All Clothes">
+                <div class="box_img">
+                    <img src="images/image24.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pink Panther Child Costume</h3>
+                    <hr>
+                    <section>$60</section>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
