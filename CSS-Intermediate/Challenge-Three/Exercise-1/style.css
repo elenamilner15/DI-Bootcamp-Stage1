@@ -1,0 +1,44 @@
+.frame {
+    width: 70%;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    margin: 30px;
+
+}
+
+.red {
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+    background-color: lightpink;
+    border: 2px solid black;
+}
+
+.blue {
+    width: 800px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+
+}
+
+.yellow {
+    width: 1150px;
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+}
+
+
+
+
+.header {
+    font-size: 18px;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+
+}
