@@ -192,12 +192,11 @@ audio {
 }
 
 
-.home-image,
-{
-position: relative;
-width: 100%;
--webkit-mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
-mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
+.home-image {
+    position: relative;
+    width: 100%;
+    -webkit-mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
+    mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
 }
 
 .music-image {
