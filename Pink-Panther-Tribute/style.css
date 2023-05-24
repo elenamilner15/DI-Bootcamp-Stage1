@@ -128,23 +128,26 @@ input:focus {
 
 /* ////////////////////////// */
 
-#TopButton {
-    display: none;
+#toTopButton {
+    /* display: none; */
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 99;
-    background-color: #000;
+    background-color: rgb(252, 169, 202);
     color: #fff;
     border: none;
     outline: none;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+
+
 }
 
-#TopButton:hover {
-    background-color: #555;
+#toTopButton:hover {
+    background-color: rgb(243, 229, 235);
+    opacity: 0.5;
 }
 
 
