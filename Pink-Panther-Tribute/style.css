@@ -194,7 +194,9 @@ audio {
 
 .home-image {
     position: relative;
-    width: 100%;
+    float: left;
+    width: 40%;
+
     -webkit-mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
     mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
 }
@@ -202,7 +204,6 @@ audio {
 .music-image {
     float: left;
     position: relative;
-    align-items: center;
     width: 350px;
     height: auto;
     padding: 20px;
