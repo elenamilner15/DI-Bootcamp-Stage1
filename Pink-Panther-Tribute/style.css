@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
-    font-size: 24px;
+    font-size: 34px;
 
 }
 
@@ -92,6 +92,7 @@ input:focus {
     margin: 0px 15px;
     transition: .3s ease-in-out;
     cursor: pointer;
+
     font-weight: 600;
     position: relative;
 
@@ -127,6 +128,25 @@ input:focus {
 
 /* ////////////////////////// */
 
+#TopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#TopButton:hover {
+    background-color: #555;
+}
+
 
 
 /* links behavior */
@@ -159,23 +179,31 @@ iframe {
     height: 150px;
 }
 
-audio {
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
 
-.home-image {
+
+audio {
     position: relative;
     width: 100%;
-    -webkit-mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
-    mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
+    mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
+}
+
+
+.home-image,
+{
+position: relative;
+width: 100%;
+-webkit-mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
+mask: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
 }
 
 .music-image {
+    float: left;
     position: relative;
     align-items: center;
-    width: 100%;
+    width: 350px;
+    height: auto;
+    padding: 20px;
 }
 
 /* links behavior */
